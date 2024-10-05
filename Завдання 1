@@ -1,0 +1,6 @@
+n = int(input("n = "))
+print(f"Enter {n} array elements:")
+arr = [int(input()) for _ in range(n)]
+print("Original array:", arr)
+min_element = min(arr)
+print("Minimalni element: ", min_element)
